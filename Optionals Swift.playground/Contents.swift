@@ -164,19 +164,20 @@ checkingDefer()
 func checkingMultipleDefer() {
     
     defer {
-        print("This wil print last")
+        print("This will print last")
     }
     
     defer {
-        print("This wil print after first print")
+        print("This will print after for loop")
     }
+    
+    print("Print first")
+    
     
     for i in 1...5 {
         print("i value is \(i)")
     }
-
     
-    print("Print first")
     // The first defer statement will execute in the last.
 }
 
@@ -185,7 +186,6 @@ checkingMultipleDefer()
 // Using defer in for loop
 
 for i in 1...5 {
-    
     
     defer {
         print("i value with defer block is \(i)")
