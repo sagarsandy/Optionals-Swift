@@ -19,7 +19,7 @@ let myHeight : Double = 5.84            // Explicit
 let yourHieght = 5.87                   // Implicit
 
 /*
- In the above constants declaration every constant have some value, but what if you want to
+ In the above constants declaration, every constant have some value, but what if you want to
  declare a constant/variable with nil value
  
  You cannot simply declare a constant/variable just like this
